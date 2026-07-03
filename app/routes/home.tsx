@@ -1,16 +1,16 @@
 import type { Route } from "./+types/home";
-import styles from "./home.module.css";
+import OdysseyMap from "~/components/odyssey-map/odyssey-map";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Empty Template" },
+    { title: "Chart of the Odyssey" },
     {
       name: "description",
-      content: "A welcoming empty template ready for content generation",
+      content: "A horizontal scroll journey map of Odysseus's epic voyage from Troy to Ithaca.",
     },
   ];
 }
 
 export default function Home() {
-  return <main className={styles.home}>I'm an empty template.</main>;
+  return <OdysseyMap />;
 }

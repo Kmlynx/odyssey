@@ -1,12 +1,26 @@
-/* Hide an element visually without hiding it from screen readers. */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
+html,
+body {
+  height: 100%;
+  background-color: var(--color-bg-deep);
+  color: var(--color-text-primary);
+  font-family: var(--family-body);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-gold-dim) var(--color-water-dark);
+}
+
+*::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--color-water-dark);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-gold-dim);
+  border-radius: 4px;
 }

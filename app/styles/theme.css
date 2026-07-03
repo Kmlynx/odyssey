@@ -1,0 +1,26 @@
+:root {
+  --color-bg-deep: #0d1b2a;
+  --color-bg-ocean: #1a3050;
+  --color-bg-mid: #1e3a5f;
+  --color-water-dark: #0b2238;
+  --color-water-light: #2a5a8a;
+
+  --color-gold: #c9a84c;
+  --color-gold-light: #e8cc7a;
+  --color-gold-dim: #8a6e30;
+  --color-parchment: #d4b896;
+  --color-parchment-light: #ede0c8;
+
+  --color-text-primary: #f0e6d0;
+  --color-text-secondary: #c9b890;
+  --color-text-muted: #8a7a60;
+  --color-text-step: #a8c5d8;
+
+  --color-node-fill: #2a4a6e;
+  --color-node-stroke: #c9a84c;
+  --color-path: #c9a84c;
+
+  --family-display: 'Cinzel Decorative', serif;
+  --family-body: 'Cinzel', serif;
+  --family-label: 'IM Fell English', serif;
+}
