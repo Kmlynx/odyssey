@@ -1,12 +1,13 @@
 .page {
   min-height: 100vh;
-  background: linear-gradient(160deg, #0a1520 0%, #0d1b2a 40%, #0a1e34 100%);
+  background:
+    radial-gradient(circle at 50% 0%, #1a2a30 0%, #0f1c22 55%, #0a1418 100%);
   display: flex;
   flex-direction: column;
 }
 
 .header {
-  padding: 2.5rem 2rem 1.5rem;
+  padding: 2.5rem 2rem 1.25rem;
   text-align: center;
   flex-shrink: 0;
 }
@@ -54,6 +55,9 @@
 .canvas {
   display: block;
   min-width: 3900px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
 }
 
 .legend {
@@ -64,18 +68,18 @@
 }
 
 .legendInner {
-  background: rgba(10, 24, 38, 0.85);
-  border: 1px solid rgba(201, 168, 76, 0.25);
+  background: linear-gradient(160deg, #f3e6c4 0%, #e6d3a4 100%);
+  border: 1px solid rgba(122, 84, 36, 0.6);
   border-radius: 8px;
   padding: 0.75rem 1.25rem;
-  backdrop-filter: blur(4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 
 .legendTitle {
   font-family: var(--family-body);
   font-size: 0.7rem;
   letter-spacing: 0.2em;
-  color: var(--color-gold);
+  color: #6a4a1f;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
@@ -92,7 +96,7 @@
   gap: 0.5rem;
   font-family: var(--family-label);
   font-size: 0.78rem;
-  color: var(--color-text-secondary);
+  color: #3b2a17;
 }
 
 .legendDot {
